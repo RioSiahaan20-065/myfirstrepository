@@ -1,0 +1,227 @@
+<!DOCTIPE html>
+
+<html>
+
+    <head>
+        <title>Tugas Pemrograman Web</title>
+        <style>table, th, td
+        .headline{font-family: 'Times New Roman', Times, serif; color: blue;}
+        .rio{font-family:Arial, Helvetica, sans-serif; color: crimson;}
+        .hrf{font-size: 30px;}
+        </style>
+    </head>
+     
+    <body style="background-color:darkblue;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQx6JZEBp5APZYASGnp8O1ZrSdurPvsuJTF6g&usqp=CAU" width="50" length="50">
+        <img style="display:block;margin:auto;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSI9rqE5xfo6LA9mZIMILhPoqFAkl9AGCjgWQ&usqp=CAU" width="700px" height="200">
+        <h1 align="center" style=background-color:blueviolet;">Formulir</h1>
+        
+         <p> 
+                <fieldset style="background-color: rgb(43, 226, 58);">
+                <legend class="rio" style="font-size:40;">Pembuatan Akun</legend>
+                <form method="POST" action="data.c">
+                    <table>
+                        <tr>
+                            <td><label for="username" style="margin-left: 20px;" class="hrf">Masukkan username anda</label></td>
+                            <td> <input type="text" id="username" name="user" required><br></td>
+                        </tr>
+                    
+                        <tr>
+                            <td> <label for="password" style="margin-left: 20px;" class="hrf">Masukkan password anda</label></td>
+                            <td> <input type="password" id="password" name="pass" required><br></td>
+                        </tr>
+                   
+                        <tr>
+                            <td> <label for="cpassword" style="margin-left: 20px;" class="hrf">Konfirmasi password anda</label></td>
+                            <td>  <input type="password" id="cpassword" name="cpass" required></td> 
+                        </tr>
+                    </table>
+
+                </fieldset>
+                 <br>
+         
+          
+                    <fieldset style="background-color:mediumorchid;">
+                    <legend style="font-size:40;" class="rio">Data</legend>
+                        <table>
+                            <tr>
+                                <td style="margin-left: 20px ;" class="hrf">Jenis Kelamin :</td>
+                                <td> <label for="jenis kelamin1" style="margin-left: 20px;" class="hrf">Laki-laki</label></td>
+                                <td><input type="radio" id="jeniskelamin1" name="jenis kelamin1" required></td>
+                                <td> <label for="jeniskelamin2" style="margin-left: 20px;" class="hrf">Perempuan</label></td>
+                                <td> <input type="radio" id="jeniskelamin2" name="jeniskelamin2" required><br></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Tempat Lahir" style="margin-left: 20px;" class="hrf">Tempat Lahir</label></td>
+                                <td> <input type="text" id="Tempat Lahir" name="Tempat Lahir" required><br></td>
+                            </tr>
+                            <tr>
+                                <td> <label for="tanggal" style="margin-left: 20px;" class="hrf">Tanggal Lahir</label></td>
+                                <td> <input type="date" id="tanggal" name="tanggal" required><br></td>
+                            </tr>
+                            <tr>
+                                <td><label for="prodi" style="margin-left: 20px;" class="hrf">Prodi Jurusan</label> <br>
+                                    <select name="prodi" style="margin-left: 20px;>
+                                        <option value="asal">asal</option>
+                                        <option value="D1">D1</option>
+                                        <option value="D3">D3</option>
+                                        <option value="S1">S1</option>
+                                        <option value="S2">S2</option>
+                                        <option value="S3">S3</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset><br>
+           
+            
+           
+                    <fieldset style="background-color:mediumpurple;">
+                    <legend style="font-size:40;" class="rio" class="hrf">Hobi dan Kesukaan</legend>
+                            <table>
+                                <tr>
+                                    <td><label for="Hobi1" style="margin-left: 20px;" class="hrf">Berenang</label></td>
+                                    <td><input type="checkbox" id="Hobi1" name="Hobi1" required></td>
+                                    <td><label for="Hobi6" style="margin-left: 20px;" class="hrf">Memancing</label></td>
+                                    <td><input type="checkbox" id="Hobi6" name="Hobi6" required></td>
+                                    <td><label for="Hobi12" style="margin-left: 20px;" class="hrf">Menulis</label></td>
+                                    <td><input type="checkbox" id="Hobi12" name="Hobi12" required></td>
+                                </tr>
+                                <tr>
+                                    <td> <label for="Hobi2" style="margin-left: 20px;" class="hrf">Melukis</label></td>
+                                    <td><input type="checkbox" id="Hobi2" name="Hobi2" required></td>
+                                    <td><label for="Hobi7" style="margin-left: 20px;" class="hrf">Membaca Buku</label></td>
+                                    <td><input type="checkbox" id="Hobi7" name="Hobi7" required></td>
+                                    <td><label for="Hobi13" style="margin-left: 20px;" class="hrf">Mengoleksi Sesuatu</label></td>
+                                    <td><input type="checkbox" id="Hobi13" name="Hobi13" required></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="Hobi3" style="margin-left: 20px;" class="hrf">Membaca</label></td>
+                                    <td><input type="checkbox" id="Hobi3" name="Hobi3" required></td>
+                                    <td><label for="Hobi8" style="margin-left: 20px;" class="hrf">Mendaki Gunung</label></td>
+                                    <td><input type="checkbox" id="Hobi8" name="Hobi8" required></td>
+                                    <td><label for="Hobi14" style="margin-left: 20px;" class="hrf">Memelihara Binatang</label></td>
+                                    <td><input type="checkbox" id="Hobi14" name="Hobi14" required></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="Hobi4" style="margin-left: 20px;" class="hrf">Menari</label></td>
+                                    <td><input type="checkbox" id="Hobi4" name="Hobi4" required></td>
+                                    <td><label for="Hobi9" style="margin-left: 20px;" class="hrf">Memasak</label></td>
+                                    <td><input type="checkbox" id="Hobi19" name="Hobi19" required></td>
+                                    <td><label for="Hobi15" style="margin-left: 20px;" class="hrf">Berenang</label></td>
+                                    <td><input type="checkbox" id="Hobi15" name="Hobi15" required></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="Hobi5" style="margin-left: 20px;" class="hrf">Belajar</label></td>
+                                    <td><input type="checkbox" id="Hobi5" name="Hobi5" required></td>
+                                    <td><label for= "Hobi10" style="margin-left: 20px;" class="hrf">Berbelanja</label></td>
+                                    <td><input type="checkbox" id="Hobi10" name="Hobi10" required></td>
+                                    <td><label for="Hobi16" style="margin-left: 20px;" class="hrf">Dan lain-lain</label></td>
+                                    <td><input type="text" id="Hobi16" name="Hobi16" required></td>
+                                </tr>
+                            </table>
+                </fieldset>
+
+                <fieldset style="background-color:mediumseagreen;">
+                   <legend style="font-size:40;" class="rio" class="hrf">Keterangan Tentang Diri</legend>
+                    <table>
+                        <tr>
+                            <td><label for="nama" style="margin-left: 20px;" class="hrf">Nama Lengkap</label> </td>
+                            <td><input type="text" id="nama" name="namalengkap" required></td>
+                            <td><label for="nhp" style="margin-left: 20px;" class="hrf">Nomor telepon</label> </td>
+                            <td><input type="number id="nhp" name="nhp" required> </td>
+                        </tr>
+                        <tr>
+                            <td><label for="asalsekolah" style="margin-left: 20px;" class="hrf">Asal SMA</label></td>
+                            <td><input type="text" id="asalsekolah" name="asal sekolah" required></td>
+                            <td><label for="ig" style="margin-left: 20px;" class="hrf">Nama akun Instagram</label> </td>
+                            <td><input type="text" id="ig" name="ig" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="statuskeluarga" style="margin-left: 20px;" class="hrf">Status Dalam Keluraga</label> </td>
+                            <td><input type="text id="statuskeluarga" name="statuskeluarga" required></td>
+                            <td><label for="line" style="margin-left: 20px;" class="hrf">Nama akun LINE</label> </td>
+                            <td><input type="text" id="line" name="line" required ></td>
+                        </tr>
+                        <tr>
+                            <td><label for="anakke" style="margin-left: 20px;" class="hrf">Anak ke</label></td>
+                            <td><input type="number" id="anakke" name="anakke" required></td>
+                            <td><label for="wa" style="margin-left: 20px;" class="hrf">Nomor WA</label> </td>
+                            <td><input type="number" id="wa" name="wa" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="alamat" style="margin-left: 20px;" class="hrf">Alamat Lengkap</label></td>
+                            <td><input type="text" id="alamat" name="alamat" required></td>
+                            <td><label for="klain" style="margin-left: 20px;" class="hrf">Keterangan Lain</label></td>
+                            <td><textarea  rows="2" cols="20"></textarea></td>
+                        </tr> 
+                    </table>                
+                </fieldset> 
+
+                <fieldset style="background-color:mediumslateblue;">
+                    <legend style="font-size:40;" class="rio" class="hrf">Keterangan Tentang Orangtua</legend>
+                     <table>
+                         <tr>
+                             <td><label for="ortu" style="margin-left: 20px;" class="hrf">Nama Lengkap(salah satu orangtua) </label> </td>
+                             <td><input type="text" id="ortu" name="ortu" required></td>
+                         </tr>
+                         <tr>
+                             <td><label for="nortu" style="margin-left: 20px;" class="hrf">Nomor Orangtua</label></td>
+                             <td><input type="number" id="nortu" name="nortu" required></td>
+                         </tr>
+                         <tr>
+                             <td><label for="pekerjaan" style="margin-left: 20px;" class="hrf">Pekerjaan</label> </td>
+                             <td><input type="text" id="pekerjaan" name="pekerjaan" required></td>
+                         </tr>
+                         <tr>
+                             <td><label for="pend" style="margin-left: 20px;" class="hrf">Pendidikan Terakhir</label></td>
+                             <td><input type="text" id="pend" name="pend" required></td>
+                         </tr>
+                         <tr>
+                             <td><label for="wali" style="margin-left: 20px;" class="hrf">Nama Wali</label></td>
+                             <td><input type="text" id="wali" name="wali"></td>
+                         </tr>
+                     </table>                
+                 </fieldset> 
+
+                <fieldset style="background-color:mediumspringgreen;">
+                    <legend style="font-size:40;" class="rio">Alasan Mengikuti</legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    <textarea style="margin-left: 20px;" rows="3" cols="50" class="hrf"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                </fieldset>
+               
+
+    <input type="submit" value="DAFTAR" >
+    <input type="reset" value="RESET">
+    </form>     
+    </p>
+    </body> 
+                            
+                           
+                           
+                            
+            
+            
+            
+            
+           
+
+                
+               
+               
+               
+                
+               
+    
+
+
+
+
+</html>
+
+
